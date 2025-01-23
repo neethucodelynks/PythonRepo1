@@ -1,7 +1,7 @@
 name: My first workflow
 on: workflow_dispatch
 jobs:
- Test:
+  Test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
