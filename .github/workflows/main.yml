@@ -10,9 +10,9 @@ jobs:
       - name: using trustme plugin
         uses: TrustMe-ai/test-TrustMe-plugin@qa
         with: 
-         fail-if-low-more-than: 50
-         fail-if-high-more-than: 50
-         fail-if-medium-more-than: 50
+          fail-if-low-more-than: 50
+          fail-if-high-more-than: 50
+          fail-if-medium-more-than: 50
 
       
 
