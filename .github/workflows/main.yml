@@ -1,0 +1,19 @@
+name: My first workflow
+on: workflow_dispatch
+jobs:
+ Test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+        
+      - name: using trustme plugin
+        uses: rustMe-ai/test-TrustMe-plugin@qa
+        with: 
+         fail-if-low-more-than: 50
+         fail-if-high-more-than: 50
+         fail-if-medium-more-than: 50
+
+      
+
+ 
